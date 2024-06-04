@@ -1,0 +1,158 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografia */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Satisfy', cursive;
+    color: #333;
+}
+
+h1.title--big {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p, ul {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/* Estilo de botões */
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.button--primary {
+    background-color: #007bff;
+}
+
+.button--primary:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section */
+.hero {
+    background: url('../images/hero_bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.hero__title {
+    margin-bottom: 2rem;
+}
+
+.infos-bar {
+    margin-top: 2rem;
+}
+
+.infos-bar__infos {
+    list-style: none;
+}
+
+.infos-bar__infos__item {
+    margin-bottom: 0.5rem;
+}
+
+/* Seções de atração */
+.attraction {
+    padding: 3rem 0;
+    background-color: #fff;
+}
+
+.attraction--best-beer {
+    background-color: #ffe4c4;
+}
+
+.attraction--gastronomy {
+    background-color: #f5deb3;
+}
+
+.attraction--services {
+    background-color: #e0ffff;
+}
+
+.attraction--apartments {
+    background-color: #f0e68c;
+}
+
+.attraction__image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.attraction__details {
+    padding: 2rem;
+}
+
+.attraction__details__title {
+    margin-bottom: 1rem;
+}
+
+.attraction__details__description {
+    margin-top: 1rem;
+}
+
+/* Seção de carrossel */
+.section__carousel {
+    padding: 3rem 0;
+    background-color: #fff;
+}
+
+.section__carousel__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.carousel-inner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.carousel-indicators button {
+    background-color: #000;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .col-12 {
+    margin: 0;
+}
