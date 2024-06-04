@@ -81,15 +81,15 @@ p, ul {
 }
 
 .attraction--best-beer {
-    background-color: #ffe4c4;
+    background-color: silver;
 }
 
 .attraction--gastronomy {
-    background-color: #f5deb3;
+    background-color: slategray;
 }
 
 .attraction--services {
-    background-color: #e0ffff;
+    background-color: thistle;
 }
 
 .attraction--apartments {
